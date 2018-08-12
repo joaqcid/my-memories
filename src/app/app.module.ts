@@ -12,6 +12,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AddMemoryComponent } from './add-memory/add-memory.component';
 import { ViewMemoriesComponent } from './view-memories/view-memories.component';
 import { FormsModule } from '@angular/forms';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { FormsModule } from '@angular/forms';
     MatDatepickerModule,
     FormsModule,
     MatNativeDateModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
     RouterModule.forRoot([
       {
         path: '', component: MyNavComponent, 

@@ -24,7 +24,9 @@
     "@angular/pwa": "^0.6.8",
     "@angular/router": "^6.0.3",
     "@angular/service-worker": "^6.0.3",
+    "angularfire2": "^5.0.0-rc.11",
     "core-js": "^2.5.4",
+    "firebase": "^5.3.1",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
