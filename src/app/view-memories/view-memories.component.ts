@@ -25,7 +25,7 @@ export class ViewMemoriesComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.subscription = this.db.list<ViewMemoriesItem>('memories').valueChanges().pipe(first()).subscribe(d=>{
+    this.subscription = this.db.list<ViewMemoriesItem>('memories').valueChanges().subscribe(d=>{
       console.log('data streaming');
       this.dataSource = new ViewMemoriesDataSource(this.paginator, this.sort);    
       this.dataSource.data = d;
