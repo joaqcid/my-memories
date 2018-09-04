@@ -1,5 +1,9 @@
 # MyMemories
 
+This sample is published as part of the corresponding blog article at https://www.toptal.com/angular/angular-6-tutorial-new-features-power
+ 
+Visit https://www.toptal.com/blog and subscribe to our newsletter to read great posts!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
