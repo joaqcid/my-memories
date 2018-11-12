@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, OnDestroy } from '@angular/core';
 import { MatPaginator, MatSort } from '@angular/material';
 import { ViewMemoriesDataSource, ViewMemoriesItem } from './view-memories-datasource';
 import { AngularFireDatabase } from 'angularfire2/database';
-import { pipe, Subscription } from 'rxjs';
+import { Subscription } from 'rxjs';
 import { map, first } from 'rxjs/operators';
 
 @Component({
